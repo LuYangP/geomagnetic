@@ -16,7 +16,7 @@ continents_src = BuiltinSurface(source='earth', name='Continents')
 continents_src.data_source.on_ratio = 2
 continents = mlab.pipeline.surface(continents_src, color=(0, 0, 0))
 
-data=open("./material/B--1900-1905.txt")
+data=open("./B--1900-1905.txt")
 init_flag = 0
 datadict=[[0 for col in range(361)] for row in range(181)]
 
