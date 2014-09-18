@@ -1,4 +1,4 @@
-f=open('/media/SOCRATES/Python27/mystuff/IGRF11.COF','r')
+f=open('IGRF11.COF','r')
 
 def get_the_title_info(alist):
 	blist=[]
